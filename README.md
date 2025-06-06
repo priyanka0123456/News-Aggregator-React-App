@@ -6,14 +6,14 @@
 5.**NewsAPI**: Provides access to a wide range of news articles from various sources.<br>
 6.**The Guardian API**: Fetches articles from The Guardian.<br>
 7.**New York Times API**: Retrieves articles from The New York Times.<br>
-<br>
+
 ### Technologies Used:-<br>
 1.**React.js**: A JavaScript library for building user interfaces.<br>
 2.**Redux Toolkit**: For state management.<br>
 3.**Axios**: For making HTTP requests to fetch data from APIs.<br>
 4.**React Bootstrap**: For UI components and styling.<br>
 5.**Docker**: For containerizing the application.<br>
-<br>
+
 ### Implementation Details:-<br>
 1.**Search and Filtering**<br>
 *SearchBar Component*: Allows users to search articles by entering keywords. This triggers a search request to the selected data sources.<br>
@@ -28,15 +28,15 @@ api.js contains four different data sources newsAPI, guardianAPI, nytAPI, and gn
 5.**Redux Toolkit**: Used to manage the state of the application, including articles fetched, user preferences, and filter criteria. Redux slices (articlesSlice.js) are created to handle specific aspects of the state.
 <br>
 ### Project Setup and Dockerization:-<br>
-1.Clone the Repository:git clone https://github.com/priyanka0123456/News-Aggregator-React-App.git<br>
-2.Install Docker:Ensure Docker is installed on your machine. You can download it from Docker's official website.<br>
-3.Build the Docker Image:<br>
+1.**Clone the Repository**:git clone https://github.com/priyanka0123456/News-Aggregator-React-App.git<br>
+2.**Install Docker**:Ensure Docker is installed on your machine. You can download it from Docker's official website.<br>
+3.**Build the Docker Image**:<br>
 docker build -t news-aggregator .<br>
-4.Run the Docker Container:<br>
+4.**Run the Docker Container**:<br>
 docker run -p 80:80 news-aggregator<br>
 Alternatively, if you are using Docker Compose, run:<br>
 docker-compose up --build<br>
-5.Access the Application:<br>
+5.**Access the Application**:<br>
 Open your web browser and go to http://localhost to see the application running.<br>
 Stopping the Container:<br>
 If you started the container with Docker Compose, stop it using:<br>
