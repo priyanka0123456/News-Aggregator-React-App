@@ -13,6 +13,9 @@
 3.**Axios**: For making HTTP requests to fetch data from APIs.<br>
 4.**React Bootstrap**: For UI components and styling.<br>
 5.**Docker**: For containerizing the application.<br>
+### Folder Structure: <br>
+<pre> news-aggregator/ ├── public/ │ └── index.html ├── src/ │ ├── components/ │ │ ├── Error/ │ │ │ └── Error.js │ │ ├── Loading/ │ │ │ ├── index.js │ │ │ └── Loading.js │ │ ├── NavBar/ │ │ │ ├── Loading.js │ │ │ └── Loading.css │ │ ├── News/ │ │ │ ├── index.js │ │ │ ├── News.js │ │ │ └── News.css │ │ ├── NewsCard/ │ │ │ ├── NewsCard.js │ │ │ ├── NewsCard.css │ │ │ └── Details/ │ │ │ ├── Details.js │ │ │ └── Details.css │ │ ├── NoDataFound/ │ │ │ ├── NoDataFound.js │ │ │ └── NoDataFound.css │ │ ├── NoRouteFound/ │ │ │ └── NoRouteFound.js │ │ └── ScrollToTop/ │ │ └── ScrollToTop.js │ ├── config/ │ │ ├── api.js │ │ └── config.js │ ├── images/ │ │ └── ArrowIcon.svg │ ├── pages/ │ │ ├── HomePage/ │ │ │ └── HomePage.js │ │ └── PersonalizedPage/ │ │ └── PersonalizedPage.js │ ├── router/ │ │ └── appRouter.js │ ├── store/ │ │ ├── store.js │ │ └── slices/ │ │ └── articlesSlice.js │ ├── App.js │ ├── App.css │ ├── index.js │ └── index.css ├── .env ├── .gitignore ├── .dockerignore ├── Dockerfile ├── docker-compose.yml └── package.json </pre>
+
 
 ### Implementation Details:-<br>
 1.**Search and Filtering**<br>
