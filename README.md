@@ -3,9 +3,9 @@
 2.**Personalized News**: Feed Users can customize their news feed by selecting preferred sources, categories, and authors.<br>
 3.**Mobile-Responsive Design**: The website is optimized for both desktop and mobile devices.<br>
 4.**Data Sources**: The application uses the following data sources:<br>
--**NewsAPI**: Provides access to a wide range of news articles from various sources.<br>
--**The Guardian API**: Fetches articles from The Guardian.<br>
--**New York Times API**: Retrieves articles from The New York Times.<br>
+-NewsAPI: Provides access to a wide range of news articles from various sources.<br>
+-The Guardian API: Fetches articles from The Guardian.<br>
+-New York Times API: Retrieves articles from The New York Times.<br>
 
 ### Technologies Used:-<br>
 1.**React.js**: A JavaScript library for building user interfaces.<br>
