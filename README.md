@@ -6,14 +6,14 @@ Features:-
 5.NewsAPI: Provides access to a wide range of news articles from various sources.<br>
 6.The Guardian API: Fetches articles from The Guardian.<br>
 7.New York Times API: Retrieves articles from The New York Times.<br>
-<br><br>
+<br>
 Technologies Used:-<br>
 1.React.js: A JavaScript library for building user interfaces.<br>
 2.Redux Toolkit: For state management.<br>
 3.Axios: For making HTTP requests to fetch data from APIs.<br>
 4.React Bootstrap: For UI components and styling.<br>
 5.Docker: For containerizing the application.<br>
-<br><br>
+<br>
 Implementation Details:-<br>
 1.Search and Filtering<br>
 SearchBar Component: Allows users to search articles by entering keywords. This triggers a search request to the selected data sources.<br>
@@ -21,28 +21,28 @@ FilterOptions Component: Users can filter articles based on categories, date ran
 2.Personalized News Feed<br>
 PersonalizedFeed Component: Displays a custom news feed based on user preferences such as preferred categories, sources, and authors. User preferences are stored in Redux and used to fetch and display relevant articles.<br>
 3.Mobile-Responsive Design<br>
-Responsive Layout: The UI components are designed using React Bootstrap, ensuring the layout adjusts for different screen sizes. Media queries are used for custom styling on mobile devices.
+Responsive Layout: The UI components are designed using React Bootstrap, ensuring the layout adjusts for different screen sizes. Media queries are used for custom styling on mobile devices.<br>
 4.API Integration
-api.js contains four different data sources newsAPI, guardianAPI, nytAPI, and gnewsAPI: These service file handle API requests to the respective data sources. It contains functions to fetch data, and convert all the data into normalize data which are used in Redux actions and components.
-State Management
-5.Redux Toolkit: Used to manage the state of the application, including articles fetched, user preferences, and filter criteria. Redux slices (articlesSlice.js) are created to handle specific aspects of the state.
+api.js contains four different data sources newsAPI, guardianAPI, nytAPI, and gnewsAPI: These service file handle API requests to the respective data sources. It contains functions to fetch data, and convert all the data into normalize data which are used in Redux actions and components.<br>
 
-Project Setup and Dockerization:-
-1.Clone the Repository:git clone https://github.com/priyanka0123456/News-Aggregator-React-App.git
-2.Install Docker:Ensure Docker is installed on your machine. You can download it from Docker's official website.
-3.Build the Docker Image:
-docker build -t news-aggregator .
-4.Run the Docker Container:
-docker run -p 80:80 news-aggregator
-Alternatively, if you are using Docker Compose, run:
-docker-compose up --build
-5.Access the Application:
-Open your web browser and go to http://localhost to see the application running.
-Stopping the Container:
-If you started the container with Docker Compose, stop it using:
-docker-compose down
-If you started the container directly, find the container ID with:
-docker ps
-Then stop it with:
-docker stop <container_id>
+5.Redux Toolkit: Used to manage the state of the application, including articles fetched, user preferences, and filter criteria. Redux slices (articlesSlice.js) are created to handle specific aspects of the state.
+<br>
+Project Setup and Dockerization:-<br>
+1.Clone the Repository:git clone https://github.com/priyanka0123456/News-Aggregator-React-App.git<br>
+2.Install Docker:Ensure Docker is installed on your machine. You can download it from Docker's official website.<br>
+3.Build the Docker Image:<br>
+docker build -t news-aggregator .<br>
+4.Run the Docker Container:<br>
+docker run -p 80:80 news-aggregator<br>
+Alternatively, if you are using Docker Compose, run:<br>
+docker-compose up --build<br>
+5.Access the Application:<br>
+Open your web browser and go to http://localhost to see the application running.<br>
+Stopping the Container:<br>
+If you started the container with Docker Compose, stop it using:<br>
+docker-compose down<br>
+If you started the container directly, find the container ID with:<br>
+docker ps<br>
+Then stop it with:<br>
+docker stop <container_id><br>
 
