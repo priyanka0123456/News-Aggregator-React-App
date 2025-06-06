@@ -15,7 +15,7 @@ Technologies Used:-
 5.Docker: For containerizing the application.
 
 Project-Structure:-
-\`\`\` news-aggregator/
+** \`\`\` news-aggregator/
 │
 ├── public/
 │   ├── index.html
@@ -89,7 +89,7 @@ Project-Structure:-
 ├── Dockerfile
 ├── package.json
 └── ...
-
+**
 Implementation Details:-
 1.Search and Filtering
 SearchBar Component: Allows users to search articles by entering keywords. This triggers a search request to the selected data sources.
