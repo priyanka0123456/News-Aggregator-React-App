@@ -35,14 +35,14 @@ api.js contains four different data sources newsAPI, guardianAPI, nytAPI, and gn
 4.**Run the Docker Container**:<br>
 docker run -p 80:80 news-aggregator<br>
 Alternatively, if you are using Docker Compose, run:<br>
-docker-compose up --build<br>
+```docker-compose up --build```<br>
 5.**Access the Application**:<br>
 Open your web browser and go to http://localhost to see the application running.<br>
 Stopping the Container:<br>
 If you started the container with Docker Compose, stop it using:<br>
-docker-compose down<br>
+```docker-compose down```<br>
 If you started the container directly, find the container ID with:<br>
-docker ps<br>
+```docker ps```<br>
 Then stop it with:<br>
-docker stop <container_id><br>
+```docker stop <container_id>```<br>
 
