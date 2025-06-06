@@ -1,4 +1,4 @@
-Features:-
+**Features:-**
 1.Article Search and Filtering Users can search for articles by entering keywords. Filtering options are available by date, category, and source.<br>
 2.Personalized News Feed Users can customize their news feed by selecting preferred sources, categories, and authors.<br>
 3.Mobile-Responsive Design The website is optimized for both desktop and mobile devices.<br>
