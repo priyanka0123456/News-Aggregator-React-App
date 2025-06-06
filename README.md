@@ -14,7 +14,7 @@
 4.**React Bootstrap**: For UI components and styling.<br>
 5.**Docker**: For containerizing the application.<br>
 ### Folder Structure: <br>
- ``` news-aggregator/
+``` news-aggregator/
   ├── public/ 
   │ └── index.html 
   ├── src/ 
@@ -22,7 +22,32 @@
   │ │ ├── Error/
   │ │ │ └── Error.js
   │ │ ├── Loading/
-  │ │ │ ├── index.js │ │ │ └── Loading.js │ │ ├── NavBar/ │ │ │ ├── Loading.js │ │ │ └── Loading.css │ │ ├── News/ │ │ │ ├── index.js │ │ │ ├── News.js │ │ │ └── News.css │ │ ├── NewsCard/ │ │ │ ├── NewsCard.js │ │ │ ├── NewsCard.css │ │ │ └── Details/ │ │ │ ├── Details.js │ │ │ └── Details.css │ │ ├── NoDataFound/ │ │ │ ├── NoDataFound.js │ │ │ └── NoDataFound.css │ │ ├── NoRouteFound/ │ │ │ └── NoRouteFound.js │ │ └── ScrollToTop/ │ │ └── ScrollToTop.js ├── App.js ├── index.js └── package.json ``` </code> </pre>
+  │ │ │ ├── index.js
+  │ │ │ └── Loading.js
+  │ │ ├── NavBar/
+  │ │ │ ├── Loading.js
+  │ │ │ └── Loading.css
+  │ │ ├── News/
+  │ │ │ ├── index.js
+  │ │ │ ├── News.js
+  │ │ │ └── News.css
+  │ │ ├── NewsCard/
+  │ │ │ ├── NewsCard.js
+  │ │ │ ├── NewsCard.css
+  │ │ │ └── Details/
+  │ │ │ ├── Details.js
+  │ │ │ └── Details.css
+  │ │ ├── NoDataFound/
+  │ │ │ ├── NoDataFound.js
+  │ │ │ └── NoDataFound.css
+  │ │ ├── NoRouteFound/
+  │ │ │ └── NoRouteFound.js
+  │ │ └── ScrollToTop/
+  │ │ └── ScrollToTop.js
+  ├── App.js
+  ├── index.js
+  └── package.json
+ ``` 
 
 
 ### Implementation Details:-<br>
