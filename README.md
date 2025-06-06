@@ -31,7 +31,7 @@ api.js contains four different data sources newsAPI, guardianAPI, nytAPI, and gn
 1.**Clone the Repository**:git clone https://github.com/priyanka0123456/News-Aggregator-React-App.git<br>
 2.**Install Docker**:Ensure Docker is installed on your machine. You can download it from Docker's official website.<br>
 3.**Build the Docker Image**:<br>
-docker build -t news-aggregator .<br>
+``` docker build -t news-aggregator ``` .<br>
 4.**Run the Docker Container**:<br>
 docker run -p 80:80 news-aggregator<br>
 Alternatively, if you are using Docker Compose, run:<br>
