@@ -14,7 +14,7 @@
 4.**React Bootstrap**: For UI components and styling.<br>
 5.**Docker**: For containerizing the application.<br>
 ### Folder Structure: <br>
-<pre> <code> ##  ``` news-aggregator/
+ ``` news-aggregator/
   ├── public/ 
   │ └── index.html 
   ├── src/ 
