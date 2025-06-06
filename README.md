@@ -1,26 +1,26 @@
 Features:-
-1.Article Search and Filtering Users can search for articles by entering keywords. Filtering options are available by date, category, and source.
-2.Personalized News Feed Users can customize their news feed by selecting preferred sources, categories, and authors.
-3.Mobile-Responsive Design The website is optimized for both desktop and mobile devices.
-4.Data Sources The application uses the following data sources:
-5.NewsAPI: Provides access to a wide range of news articles from various sources.
-6.The Guardian API: Fetches articles from The Guardian.
-7.New York Times API: Retrieves articles from The New York Times.
-
-Technologies Used:-
-1.React.js: A JavaScript library for building user interfaces.
-2.Redux Toolkit: For state management.
-3.Axios: For making HTTP requests to fetch data from APIs.
-4.React Bootstrap: For UI components and styling.
-5.Docker: For containerizing the application.
-
-Implementation Details:-
-1.Search and Filtering
-SearchBar Component: Allows users to search articles by entering keywords. This triggers a search request to the selected data sources.
-FilterOptions Component: Users can filter articles based on categories, date ranges, and sources. This component interacts with Redux to update the filter criteria.
-2.Personalized News Feed
-PersonalizedFeed Component: Displays a custom news feed based on user preferences such as preferred categories, sources, and authors. User preferences are stored in Redux and used to fetch and display relevant articles.
-3.Mobile-Responsive Design
+1.Article Search and Filtering Users can search for articles by entering keywords. Filtering options are available by date, category, and source.<br>
+2.Personalized News Feed Users can customize their news feed by selecting preferred sources, categories, and authors.<br>
+3.Mobile-Responsive Design The website is optimized for both desktop and mobile devices.<br>
+4.Data Sources The application uses the following data sources:<br>
+5.NewsAPI: Provides access to a wide range of news articles from various sources.<br>
+6.The Guardian API: Fetches articles from The Guardian.<br>
+7.New York Times API: Retrieves articles from The New York Times.<br>
+<br><br>
+Technologies Used:-<br>
+1.React.js: A JavaScript library for building user interfaces.<br>
+2.Redux Toolkit: For state management.<br>
+3.Axios: For making HTTP requests to fetch data from APIs.<br>
+4.React Bootstrap: For UI components and styling.<br>
+5.Docker: For containerizing the application.<br>
+<br><br>
+Implementation Details:-<br>
+1.Search and Filtering<br>
+SearchBar Component: Allows users to search articles by entering keywords. This triggers a search request to the selected data sources.<br>
+FilterOptions Component: Users can filter articles based on categories, date ranges, and sources. This component interacts with Redux to update the filter criteria.<br>
+2.Personalized News Feed<br>
+PersonalizedFeed Component: Displays a custom news feed based on user preferences such as preferred categories, sources, and authors. User preferences are stored in Redux and used to fetch and display relevant articles.<br>
+3.Mobile-Responsive Design<br>
 Responsive Layout: The UI components are designed using React Bootstrap, ensuring the layout adjusts for different screen sizes. Media queries are used for custom styling on mobile devices.
 4.API Integration
 api.js contains four different data sources newsAPI, guardianAPI, nytAPI, and gnewsAPI: These service file handle API requests to the respective data sources. It contains functions to fetch data, and convert all the data into normalize data which are used in Redux actions and components.
