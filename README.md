@@ -15,7 +15,7 @@ Technologies Used:-
 5.Docker: For containerizing the application.
 
 Project-Structure:-
-news-aggregator/
+\`\`\` news-aggregator/
 │
 ├── public/
 │   ├── index.html
