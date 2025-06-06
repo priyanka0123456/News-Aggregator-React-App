@@ -1,13 +1,13 @@
-**Features:-**
-1.Article Search and Filtering Users can search for articles by entering keywords. Filtering options are available by date, category, and source.<br>
-2.Personalized News Feed Users can customize their news feed by selecting preferred sources, categories, and authors.<br>
-3.Mobile-Responsive Design The website is optimized for both desktop and mobile devices.<br>
-4.Data Sources The application uses the following data sources:<br>
-5.NewsAPI: Provides access to a wide range of news articles from various sources.<br>
-6.The Guardian API: Fetches articles from The Guardian.<br>
-7.New York Times API: Retrieves articles from The New York Times.<br>
+###Features:
+1.**Article Search and Filtering**: Users can search for articles by entering keywords. Filtering options are available by date, category, and source.<br>
+2.**Personalized News**: Feed Users can customize their news feed by selecting preferred sources, categories, and authors.<br>
+3.**Mobile-Responsive Design**: The website is optimized for both desktop and mobile devices.<br>
+4.**Data Sources**: The application uses the following data sources:<br>
+5.**NewsAPI**: Provides access to a wide range of news articles from various sources.<br>
+6.**The Guardian API**: Fetches articles from The Guardian.<br>
+7.**New York Times API**: Retrieves articles from The New York Times.<br>
 <br>
-Technologies Used:-<br>
+###Technologies Used:-<br>
 1.React.js: A JavaScript library for building user interfaces.<br>
 2.Redux Toolkit: For state management.<br>
 3.Axios: For making HTTP requests to fetch data from APIs.<br>
