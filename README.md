@@ -65,21 +65,21 @@ api.js contains four different data sources newsAPI, guardianAPI, nytAPI, and gn
 5.**Redux Toolkit**: Used to manage the state of the application, including articles fetched, user preferences, and filter criteria. Redux slices (articlesSlice.js) are created to handle specific aspects of the state.
 <br>
 ### Project Setup and Dockerization:-<br>
-1.**Clone the Repository**:git clone https://github.com/priyanka0123456/News-Aggregator-React-App.git<br>
-2.**Install Docker**:Ensure Docker is installed on your machine. You can download it from Docker's official website.<br>
+1.**Clone the Repository**:git clone https://github.com/priyanka0123456/News-Aggregator-React-App.git <br><br>
+2.**Install Docker**:Ensure Docker is installed on your machine. You can download it from Docker's official website.<br> <br>
 3.**Build the Docker Image**:<br>
-``` docker build -t news-aggregator ``` .<br>
+``` docker build -t news-aggregator ``` . <br><br>
 4.**Run the Docker Container**:<br>
-docker run -p 80:80 news-aggregator<br>
+docker run -p 80:80 news-aggregator<br><br>
 Alternatively, if you are using Docker Compose, run:<br>
-```docker-compose up --build```<br>
+```docker-compose up --build```<br><br>
 5.**Access the Application**:<br>
 Open your web browser and go to http://localhost to see the application running.<br>
-Stopping the Container:<br>
+Stopping the Container:<br><br>
 If you started the container with Docker Compose, stop it using:<br>
-```docker-compose down```<br>
+```docker-compose down```<br><br>
 If you started the container directly, find the container ID with:<br>
-```docker ps```<br>
+```docker ps```<br><br>
 Then stop it with:<br>
 ```docker stop <container_id>```<br>
 
