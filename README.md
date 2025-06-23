@@ -7,8 +7,9 @@
 -NewsAPI: Provides access to a wide range of news articles from various sources.<br>
 -The Guardian API: Fetches articles from The Guardian.<br>
 -New York Times API: Retrieves articles from The New York Times.
- ## 🖼️ Screenshots
- 
+ ## 🖼️ Screenshots 
+ # Home Page
+ ![Image](https://github.com/user-attachments/assets/ccedde24-2fc6-4694-a04c-213b2dfc2ef7)
 ### 🛠️ Technologies Used
 1.**React.js**: A JavaScript library for building user interfaces.<br>
 2.**Redux Toolkit**: For state management.<br>
