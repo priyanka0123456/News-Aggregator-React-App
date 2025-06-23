@@ -1,5 +1,5 @@
 
-## 🚀 Features
+## 🚀 Features :
 1.**Article Search and Filtering**: Users can search for articles by entering keywords. Filtering options are available by date, category, and source.<br>
 2.**Personalized News**: Feed Users can customize their news feed by selecting preferred sources, categories, and authors.<br>
 3.**Mobile-Responsive Design**: The website is optimized for both desktop and mobile devices.<br>
@@ -8,9 +8,11 @@
 -The Guardian API: Fetches articles from The Guardian.<br>
 -New York Times API: Retrieves articles from The New York Times.
  ## 🖼️ Screenshots 
- # Home Page
+ # 🏠 Home Page
  ![Image](https://github.com/user-attachments/assets/ccedde24-2fc6-4694-a04c-213b2dfc2ef7)
-### 🛠️ Technologies Used
+ # 🔍 Personalization Filter 
+ ![Image](https://github.com/user-attachments/assets/2bda0a85-7b4f-45fe-ae1b-6c2a3b780702)
+### 🛠️ Technologies Used :
 1.**React.js**: A JavaScript library for building user interfaces.<br>
 2.**Redux Toolkit**: For state management.<br>
 3.**Axios**: For making HTTP requests to fetch data from APIs.<br>
